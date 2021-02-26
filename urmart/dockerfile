@@ -9,7 +9,7 @@ RUN apt update \
     && pip3 install channels_redis==3.2.0 \
     && pip3 install pandas==1.2.2 \
     && pip3 install uwsgi==2.0.19.1 \
-    && pip3 install request==2.25.1 \
+    && pip3 install requests==2.25.1 \
     && apt install -y vim \
     && apt install -y iputils-ping \
     && apt install -y lsof \
